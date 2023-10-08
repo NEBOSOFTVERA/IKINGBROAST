@@ -8,6 +8,9 @@ body {
     font-family: 'Roboto', sans-serif;
     
 }
+
+/* heading */
+
 h1 {
     color:white;
     text-align: center;
@@ -20,6 +23,8 @@ h1 span {
 h1 span:hover{
     color: rgb(107, 255, 107);
 }
+
+/* main div */
 
 .main{
     width: 90%;
@@ -37,65 +42,32 @@ h1 span:hover{
 
 }
 
-.main .sub1 {
-    width: 450px;
-    margin-bottom: 50px;
-}
-.main .sub1 .links {
-    padding: 10px;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-.main .sub1 .links .icon {
-    background-color: yellow;
-    width: 50px;
-    padding: 5px;
-    font-size: 25px;
-    border-radius: 20px;
-    margin: 5px 0px;
+/*----------- sub1  ---------------- */
 
-}
-.main .sub1 .links .icon:hover{
-    background-color: rgb(107, 255, 107);
-    color:white;
-
-}
-
-
-
-.main .sub1 .location iframe {
-    width: 100%;
-    height: 350px;
-    
-}
-
-.main .sub2{
+.main .sub1{
     width: 550px;
     padding: 20px 0px;
     border-bottom: 2px solid aqua;
     margin-bottom: 50px;
 
 }
-.main .sub2 img {
+.main .sub1 img {
     width: 100%;
 
 }
-.main .sub2 .delivery{
+.main .sub1 .delivery{
     width: 100%;
     height: 100px;
    
     
 }
-.main .sub2 .delivery img{
+.main .sub1 .delivery img{
    
     width: 100px;
     height: 100px;
 }
 
-.main .sub2 .call{
+.main .sub1 .call{
     width: 100%;
     padding: 20px;
     display: flex;
@@ -103,7 +75,7 @@ h1 span:hover{
     justify-content: center;
 
 }
-.main .sub2 .call a{
+.main .sub1 .call a{
     color: black;
     text-decoration: none;
     padding: 5px 25px;
@@ -117,11 +89,11 @@ h1 span:hover{
     
 
 }
-.main .sub2 .call a:hover {
+.main .sub1 .call a:hover {
     background-color: rgb(107, 255, 107);
 
 }
-.main .sub2 .call a .call-outline{
+.main .sub1 .call a .call-outline{
     color: black;
     text-decoration: none;
     border:1px solid pink;
@@ -133,6 +105,52 @@ h1 span:hover{
     margin-left: 15px
 
 }
+
+
+/*-----------end sub1   ---------------- */
+
+
+/*----------- sub2  ---------------- */
+.main .sub2 {
+    width: 450px;
+    margin-bottom: 50px;
+}
+.main .sub2 .links {
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.main .sub2 .links .icon {
+    background-color: yellow;
+    width: 50px;
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 20px;
+    margin: 5px 0px;
+
+}
+.main .sub2 .links .icon:hover{
+    background-color: rgb(107, 255, 107);
+    color:white;
+
+}
+
+
+
+.main .sub2 .location iframe {
+    width: 100%;
+    height: 350px;
+    
+}
+
+/*----------- sub2 end  ---------------- */
+
+
+
+/*----------- copy right  ---------------- */
 p {
     color: white;
     text-align: center;
