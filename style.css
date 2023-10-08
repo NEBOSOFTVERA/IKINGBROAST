@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    
+}
+h1 {
+    color:white;
+    text-align: center;
+    margin: 50px 0px;
+
+}
+h1 span {
+    color:yellow
+}
+h1 span:hover{
+    color: rgb(107, 255, 107);
+}
+
+.main{
+    width: 90%;
+    /*
+    background-color:yellow;
+    */
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+
+    padding: 30px 0px;
+
+
+}
+
+.main .sub1 {
+    width: 450px;
+    margin-bottom: 50px;
+}
+.main .sub1 .links {
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.main .sub1 .links .icon {
+    background-color: yellow;
+    width: 50px;
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 20px;
+    margin: 5px 0px;
+
+}
+.main .sub1 .links .icon:hover{
+    background-color: rgb(107, 255, 107);
+    color:white;
+
+}
+
+
+
+.main .sub1 .location iframe {
+    width: 100%;
+    height: 350px;
+    
+}
+
+.main .sub2{
+    width: 550px;
+    padding: 20px 0px;
+    border-bottom: 2px solid aqua;
+    margin-bottom: 50px;
+
+}
+.main .sub2 img {
+    width: 100%;
+
+}
+.main .sub2 .delivery{
+    width: 100%;
+    height: 100px;
+   
+    
+}
+.main .sub2 .delivery img{
+   
+    width: 100px;
+    height: 100px;
+}
+
+.main .sub2 .call{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.main .sub2 .call a{
+    color: black;
+    text-decoration: none;
+    padding: 5px 25px;
+    padding-right:5px ;
+    background-color:yellow;
+    border-radius: 20px ;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    
+    
+
+}
+.main .sub2 .call a:hover {
+    background-color: rgb(107, 255, 107);
+
+}
+.main .sub2 .call a .call-outline{
+    color: black;
+    text-decoration: none;
+    border:1px solid pink;
+    padding: 5px;
+    
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px ;
+    text-align: center;
+    margin-left: 15px
+
+}
+p {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+
+    
+} 
+
+
