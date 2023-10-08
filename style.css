@@ -3,6 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: 'tango_btregular';
+    src: url('tangobt-webfont.woff2') format('woff2'),
+         url('tangobt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 body {
     background-color: black;
     font-family: 'Roboto', sans-serif ;
@@ -18,13 +29,19 @@ body {
     flex-wrap: wrap;
 
 }
-.heading img {
+.heading .logo {
     height: 80px;
+}
+
+.heading .logo2 {
+    height: 90px;
+    color:aliceblue;
 }
 .heading h1 {
     color:white;
     text-align: center;
     margin: 20px 30px 0px;
+    font-family: 'tango_btregular';
     
 
 }
